@@ -1,0 +1,161 @@
+/* .head {
+    padding: 20px 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+}
+
+th {
+    border: 2px solid black;
+    padding: 20px 10px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 20px 10px;
+    text-align: center;
+    font-weight: bold;
+} */
+
+body {
+    background-color: #16A085;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+    width: 800px;
+    padding: 50px 70px 262px 70px;
+    border-radius: 6px;
+}
+
+.hero__img {
+   display: block;
+}
+
+.hero-span {
+    display: block;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid #ECEBEC;
+}
+
+.hero__link {
+    display: block;
+    border: 9px solid transparent;
+    border-radius: 50%;
+}
+
+.hero__link:hover {
+    border: 9px solid #ECEBEC;
+}
+
+.hero__inner::before {
+    width: 800px;
+    height: 580px;
+    content: "";
+    position: absolute;
+    top: 218px;
+    right: 0;
+    left: 0;
+    background-image: url("../Imgaes/bicycle.png");
+    background-repeat: no-repeat;
+    background-size: 800px 580px;
+}
+
+.hero__title--inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__title {
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.hero__text {
+    margin-bottom: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #00000066;
+}
+
+.hero__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__bottom-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.hero__bottom__dollar {
+    margin-bottom: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.hero__bottom-title-active {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.hero__bottom__dollar-active {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
